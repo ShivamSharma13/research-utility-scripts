@@ -15,7 +15,7 @@ This script is tested to work on biobanks with genetic and EHR data with sample 
 
 #### 3. createPhecodeCohorts.R
 
-This script is useful for creating phecode cohorts to define samples as either Cases, Conrtrols, or Excluded. These are helpfule for performing association testing where cases and controls can be defined with high confidence.
+This script is useful for creating phecode cohorts to define samples as either Cases, Conrtrols, or Excluded. These are helpfule for performing association testing where cases and controls can be defined with high confidence. It can run on multiple cores with high speed.
 
 #### 4. plotAdmixturePlots.R
 
