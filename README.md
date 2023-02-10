@@ -20,3 +20,13 @@ This script is useful for creating phecode cohorts to define samples as either C
 #### 4. plotAdmixturePlots.R
 
 Admixture plots are helpful to look at the genetic diversity of large-scale NGS/Genotyping datasets. Population structure is an essential confounder in association studies and needs to be accounted for in various statistical methods. This script generates admixture plots for diverse datasets stratified by the self-reported race/ethnicity information.
+
+
+#### 5. createDosageFile.R
+
+Sometimes it is benificial to get dosage values {0,1,2} from genetic data which can further be used downstream to analyze effects of certain variants on a phenotype of interest. Dosages denote how many copies of a variant a sample might have? 0, 1 or 2.
+
+
+#### 6. sampleMediation.R
+
+This script performs a mediation analysis across the whole genome to test wheather a copy of variant is mediating a phenotype (disease) of interest. The script works pretty similar to how a GWAS analysis works - it independently tests for each SNP to check whether it mediates (instead of association) a relationship between phenotype of interest (disease) and an associated phenotype (socio-economic deprivation).
