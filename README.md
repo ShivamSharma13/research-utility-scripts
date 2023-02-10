@@ -1,5 +1,5 @@
 # ResearchScripts
-The repository has multiple scripts in R &amp; Python that I have used during my PhD to perform certain analysis in the broad area of human population genetics, health disparities and NGS data analysis.
+The repository has multiple scripts in R &amp; Python that I have used during my PhD to perform certain analysis in the broad area of human population genetics, health disparities, and NGS data analysis.
 
 ## Here is a brief summary of these scripts:
 
